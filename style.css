@@ -1,0 +1,45 @@
+/*Styling the student page*/
+
+body {
+  background-color: rgb(218, 224, 242);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.css {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  margin-bottom: 40px;
+}
+
+.intro {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+.html-docs {
+  margin-bottom: 40px;
+}
+
+.html-docs button {
+  padding: 10px;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 45%;
+}
+
+.css button {
+  padding: 10px;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 45%;
+}
+
+p {
+  margin-top: 45px;
+  text-align: center;
+}
