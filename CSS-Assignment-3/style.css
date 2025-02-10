@@ -1,14 +1,19 @@
 body {
   background-color: rgb(161, 162, 199);
+  margin:0;
 }
 
 .card {
   box-shadow: 1px 3px 3px 1px #8682be;
   height: 480px;
   width: 400px;
-  margin: auto;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 38px; /*to indent it from the top*/
+  margin-bottom: auto;
   border-radius: 8px;
   background-color: white;
+  position: relative;
 }
 
 .container {
@@ -29,10 +34,12 @@ h2 {
   padding-bottom: 8px;
   padding-left: 10px;
   border-radius: 12px 50px 50px 12px;
-  position: relative;
-  left: 550px;
-  top: 63px;
+  position: absolute;
+  left:-10px;
+  top:-5px;
   font-size: larger;
+  z-index: 10;
+
 }
 
 h1,
