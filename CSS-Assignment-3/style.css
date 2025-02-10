@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(161, 162, 199);
+}
+
+.card {
+  box-shadow: 1px 3px 3px 1px #8682be;
+  height: 480px;
+  width: 400px;
+  margin: auto;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px 8px 0px 0px; /*top-left top-right bottom-right bottom-left*/
+  padding-bottom: 20px;
+}
+
+h2 {
+  background-color: rgb(255, 243, 196);
+  width: 182px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  border-radius: 12px 50px 50px 12px;
+  position: relative;
+  left: 550px;
+  top: 63px;
+  font-size: larger;
+}
+
+h1,
+h4 {
+  display: inline;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 25px;
+}
+h4 {
+  font-weight: 100;
+  font-size: 17px;
+  color: rgb(65, 64, 64);
+}
+
+p {
+  font-size: 18px;
+}
