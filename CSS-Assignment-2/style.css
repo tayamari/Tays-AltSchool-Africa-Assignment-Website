@@ -1,0 +1,129 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color: white;
+}
+
+.top-section { 
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px 270px; /*space around the content */
+    max-width: 335px;
+}
+
+hr.solid {
+    border-top: 6px solid #9b9999;
+}
+
+.bottom-section {
+    background-color: #646262;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*padding-top: 15px;- taken out to subtract space between it and border*/
+    padding-bottom:10px;
+    padding-left: 150px;
+    padding-right:150px;
+    margin-top: -10px;  /*This is what fixed the issue of the weird white gap between the divider and grey!*/
+   /* TEMPORARY--- display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers everything horizontally */
+  justify-content: flex-start; /* Top-aligns content */
+}
+
+/*What's left to do: minimize grey space above the white textbox, minimize grey padding just a tiny bit. and */
+
+h3 { 
+background-color: #ffd12b; /* Yellow background */
+  padding: 16px;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 6px; /* Yellow border */
+  border-color: #c79f0e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: -300px;
+  position: relative;
+  bottom:-88px;
+  left: 417px;
+
+}
+
+/* White Textbox */
+.white-box {
+  background-color: white; /* White background */
+  width: 700px;
+  max-width: 700px; /*experiment, I had it on 300. then 680*/
+  border-bottom: solid 6px;
+  border-color: #9b9999;
+  margin-bottom: 50px;
+  margin-left: 125px;
+}
+
+.white-box p {
+    padding-top: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6; /* Improves readability */
+  display:flex;
+  justify-content:center;
+}
+
+
+    /*ORIGINAL coloring
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hr.solid {
+  border-top: 6px solid #817e7e;
+}
+
+.top-section {
+  padding-left: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 60px;
+}
+
+.solution {
+  margin-bottom: 50px;
+}
+
+.bottom-section {
+  background-color: #817e7e;
+}
+
+h3 {
+  background-color: #ffd12b;
+  padding: 16px;
+  /*original width I chose - max-width: 265px;*/
+  /*max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 6px;
+  border-color: #c79f0e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 180px;
+  margin-top: 50px;
+}
+
+/* REMOVE when done ----
+#second-section {
+  border-bottom: solid 6px;
+  border-color: #817e7e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 50px;  
+} 
