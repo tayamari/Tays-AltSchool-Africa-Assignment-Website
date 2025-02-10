@@ -1,0 +1,150 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*For Individuals card*/
+img {
+  width: 25%;
+}
+
+.individual-card {
+  padding-top: 13%;
+  padding-left: 135px;
+  margin-right: 61%;
+}
+
+h1 {
+  font-size: 42px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p#individual-text {
+  color: rgb(123, 126, 126);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Form card*/
+.form-card {
+  width: 42%;
+  padding-bottom: 50px; /*p sure controlling the height of the card*/
+  border-radius: 5px;
+  border: solid 2px;
+  border-color: rgb(188, 185, 185);
+  margin-left: 45%;
+  margin-top: -25%; /*moved the form up to be at the same level as the For Individual card*/
+  box-shadow:  4px 4px 3px 5px #ebedeb;
+}
+
+/* Layout: Two Columns */
+.form-container {
+  display: flex;
+  /* gap: 20px; /* Adds spacing between columns */
+  margin-top: 10px;
+  flex-wrap: wrap;  /* Allows items to wrap onto a new row */
+  justify-content: center;
+}
+
+/* Both Columns */
+.left-side,
+.right-side {
+  display: flex;
+  flex-direction: column;
+  /* width: 48%; /* Ensure equal width */
+ padding-top: 5px;
+ padding-left: 15px;
+ padding-right: 15px;
+ margin-top: 20px;
+}
+
+/*
+#activity, #password {
+  display: flex;
+  flex-direction: column;
+}*/
+
+label {
+  font-weight: bold;
+  text-align: left;
+}
+
+input {
+    margin-bottom: 25px;
+    width:200px; /*75%;*/
+    padding: 12px; /*makes the fields taller*/
+    margin-top: 10px; /*adds a little vertical distance between the labels and field boxes*/
+    
+}
+
+::placeholder {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#dob {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+select {
+  margin-bottom: 25px;
+    width: 225px; /*85%;*/
+    padding: 12px; /*makes the fields taller*/
+    margin-top: 10px; /*adds a little vertical distance between the labels and field boxes*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Adjusting the size of the input boxes*/
+/* #fname, #lname, #gender, #dob, #weight, #height {
+    width: 200px;
+  } */
+
+#fname {
+  border: solid 0.25px rgb(92, 190, 190);
+}
+
+.stacked-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px; /*vertical space between the other fields*/
+}
+
+/*Activity Level*/
+.stacked-column select {
+  display: flex;
+  align-items: center;
+  width: 485px;
+}
+
+/*Password*/
+.stacked-column input {
+  display: flex;
+  align-items: center;
+  width: 456px;
+}
+
+button {
+  background-color: rgb(35, 194, 194);
+  color: white;
+  width: 85%;
+  border-color: rgb(35, 194, 194);
+  margin-bottom: 18px;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: smaller;
+}
+a {
+  color:  rgb(35, 194, 194);
+}

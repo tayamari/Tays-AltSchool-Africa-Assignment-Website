@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Individuals</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
 
+      <!--For Individuals-->
+      <div class="individual-card">
+        <img src="assets/Logo.png" />
+        <h1>For Individuals</h1>
+        <p id="individual-text">
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization on wellness.
+        </p>
+      </div>
+
+      <!--Form-->
+      <div class="form-card">
+        <form>
+        <div class="form-container">
+            <div class="left-side">
+            <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="Tolu">
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+              <option value="Woman">Woman</option>
+              <option value="Man">Man</option>
+              <option value="Nonbinary/Genderqueer">Nonbinary/Genderqueer/Third Gender</option>
+              <option value="Other">Other</option>
+          </select>
+
+            <label for="weight">Weight (KG)</label>
+            <input type="number" id="weight" placeholder="Enter Weight">
+            </div>
+
+            <div class="right-side">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob">
+            <label for="height">Height (CM)</label>
+            <input type="number" id="height" placeholder="Enter height here..">
+            </div>
+      
+            <div class="stacked-column">
+            <div class="activity">
+                <label for="activity">Activity Level</label>
+                <select id="activity">
+                  <option value="">Select here</option>
+                  <option value="h-active">Highly active</option>
+                  <option value="m-active">Mostly active</option>
+                  <option value="s-active">Sometimes active</option>
+                  <option value="b-active">Barely active</option>
+                  <option value="n-active">Not active</option>
+                </select>
+            </div>
+    
+              <div class="pass">
+                <label for="pass">Password</label>
+                <input type="password" id="password" name="pass"/>
+  
+              </div>
+              </div> 
+        </div>
+        </form>
+        
+      <br />
+
+      <div class="register"> <!--Take note that we added this div so that we could center the button in the form! Without it, we weren't able to.-->
+      <button>Register</button>
+    </div>
+
+      <br />
+
+      <div class="footer">
+      <footer>
+        By clicking Register, you agree to our <a href="">Terms of Use</a> and our <a href="">Privacy
+        Policy</a>
+      </footer>
+    </div>
+
+      </div>
+
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
