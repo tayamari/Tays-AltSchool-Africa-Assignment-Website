@@ -1,0 +1,292 @@
+body {
+  background-color: rgb(239, 245, 248);
+}
+
+.container {
+  /* margin-top: 65px; /*Control this to center in the middle of the webpage*/
+  margin: 70px;
+  width: 700px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 1px 3px 3px 1px #d4d4d7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 35px; /*I think this adds more space inside the card*/
+  min-height: 600px;
+}
+
+.both-rows {
+  display: flex;
+  align-items: stretch; /*This forces both columns to be the same height!*/
+}
+
+.left-side {
+  width: 65%;
+  align-items: center;
+  color: #1d2c3c;
+}
+
+.right-side {
+  width: 35%;
+  color: white;
+}
+
+#logo {
+  display: flex;
+  align-items: center; /*Putting the logo and the nav bar items on the same aligned row :)*/
+  margin-left: 40px;
+}
+
+nav {
+  margin-left: 60%;
+  margin-top: -30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+a {
+  color: #1d2c3c;
+  font-weight: bolder;
+}
+
+/*Centering the nav bar items vertically*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-right: 40px;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+#account {
+  border: solid 1px;
+  border-radius: 4px;
+  padding-right: 13px;
+  padding-left: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.row {
+  display: inline;
+  margin-left: 20px; /*Indenting the logo*/
+}
+
+#nav-divider {
+  margin-top: 34px; /*Adding vertical space into the nav bar*/
+}
+
+h1 {
+  text-shadow: 1px 3px rgb(194, 184, 184);
+  font-size: 30px;
+}
+
+.left-side h2 {
+  display: inline-block;
+  font-size: medium;
+}
+
+#circle1 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: solid 1px;
+  text-align: center; /*centers the number inside of the bubble*/
+  margin-right: 3px;
+  color: rgb(53, 108, 143);
+}
+
+#circle2 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: solid 1px;
+  text-align: center; /*centers the number inside of the bubble*/
+  margin-right: 3px;
+  color: rgb(53, 108, 143);
+}
+
+.form-row {
+  display: flex;
+  gap: 10px; /*Adds horizontal space between the two name fields*/
+}
+
+.form-group {
+  margin-bottom: 15px; /*adds some vertical space between the fields*/
+}
+
+label {
+  display: block; /*THIS is what makes all the labels on top of the fields!!!!*/
+  margin-bottom: 4px;
+}
+
+input {
+  height: 32px;
+}
+
+.footer {
+  margin-left: 50px;
+}
+
+.q-group {
+  display: inline-flex; /*Makes the question mark and "Need any help?" is on the same page*/
+  align-items: center;
+  gap: 8px;
+}
+
+#q-mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 20px;
+  border: solid 2px;
+  text-align: center; /*centers the number inside of the bubble*/
+  color: rgb(53, 108, 143);
+}
+
+#email {
+  width: 300px;
+}
+
+/*Your Payment Information box sizes*/
+#credit {
+  width: 250px;
+}
+
+#mm-yy {
+  width: 59px;
+}
+
+#CVC {
+  width: 50px;
+}
+
+/*Adds vertical space under credit card fields*/
+.bottom-form-group {
+  margin-bottom: 33px;
+}
+
+/*Adds space between the horizontal divider and button*/
+#buy-hr {
+  margin-bottom: 30px;
+}
+
+#buy {
+  width: 90%;
+  display: block;
+  margin: 0 auto 25px; /*trick to center the button horizontally!*/
+  text-align: center;
+}
+
+button {
+  padding: 12px;
+  background-color: #038e7d;
+  color: white;
+  border: solid #038e7d;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.stripe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Shrinking the Stripe sign*/
+#stripe {
+  width: 25%;
+}
+
+/*RIGHT COLUMN STYLING*/
+
+.freelancer-group {
+  margin-right: 20px;
+}
+
+.cost {
+  display: flex;
+  align-items: baseline; /*makes the end of "year" touch the end of 99*/
+}
+
+/*If h2 or p elements are inside .cost, browsers may apply default margins. Reset them with margin: 0;.*/
+.cost > * {
+  margin-top: -10px;
+  margin-bottom: -5px;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#price {
+  font-size: 40px;
+}
+
+#year {
+  font-size: 17px;
+}
+
+.check-group {
+  margin-top: 30px;
+}
+
+#check {
+  border: solid 2px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 600;
+  padding: 3px;
+}
+
+.check-group p {
+  display: inline;
+  line-height: 30px;
+  font-size: 13px;
+}
+
+#quote {
+  font-size: 15px;
+}
+
+/*Lessening the distance between the "need" and "switch" statements"*/
+.need {
+  line-height: 15px;
+  font-size: 13px;
+}
+
+/*Adding space above and under the bar*/
+#FTP-bar {
+  margin-top: 31px;
+  margin-bottom: 35px;
+}
+
+#kirk {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  filter: grayscale(); /*makes Kirk's image black and white!*/
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.terms {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-10%);
+  font-size: 12px;
+  color: grey;
+}
