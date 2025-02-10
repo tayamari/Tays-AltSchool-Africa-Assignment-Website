@@ -1,0 +1,22 @@
+.full-nav-bar {
+    display: inline;
+
+}
+
+img {
+    margin-left: 10%;
+}
+
+nav {
+
+}
+
+.central-nav {
+    margin-left: 35%;
+}
+
+
+button {
+    border: solid 1px blue;
+    border-radius: 15px;
+}
