@@ -9,13 +9,6 @@ body {
   place-content: center;
 }
 
-/*made the gradient at least a little longer on bigger screens*/
-html, body {
-  height: 100%;
-  margin: 0;
-  padding:0;
-}
-
 .css {
   display: flex;
   flex-direction: column;
