@@ -106,7 +106,7 @@ p {
     radial-gradient(circle at 95% 90%, #fff 3px, transparent 5px);
   background-size: 100% 100%;
   background-repeat: repeat;
-  animation: snowfall 15s linear infinite;
+  animation: snowfall 20s linear infinite;
   }
 
 @keyframes snowfall {
