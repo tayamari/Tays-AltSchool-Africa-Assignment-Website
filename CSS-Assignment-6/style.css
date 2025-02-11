@@ -1,22 +1,99 @@
-.full-nav-bar {
-    display: inline;
-
+#logo {
+    margin-left: 60%;
 }
 
-img {
-    margin-left: 10%;
+.navigation-bar {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   margin-bottom: 90px;
+  
+    
+    
+    /*display: flex; /*this is what brought the logo and words into the same line*/
+  /*  justify-content: space-between;*/
 }
 
 nav {
-
+   display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .central-nav {
     margin-left: 35%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
+.right-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /*Makes the button and "Log in" on the same line*/
+    margin-right: 10%;
+    gap: 15px;
+}
 
 button {
     border: solid 1px blue;
-    border-radius: 15px;
+    border-radius: 20px;
+    width: 125px;
+    padding: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sign-up-row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 45px;
+    align-items: center; /*This put "Sign up" and "Learn more" on the same line*/
+}
+
+.vector-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: -20px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-stand {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.item-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item.group p {
+    text-align: left;
 }
