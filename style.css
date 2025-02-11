@@ -3,10 +3,14 @@
 body {
   background-color: rgb(218, 224, 242);
  background-image: linear-gradient(to bottom right,lightblue, rgb(105, 127, 237));
+ background-size:cover;
+ background-attachment: fixed;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
 }
 
 .css {
