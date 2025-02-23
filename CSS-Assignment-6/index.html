@@ -9,77 +9,243 @@
 
   <body>
     <!--Navigation bar including the logo-->
-      <section>
-        <div class="navigation-bar">
+    <section>
+      <div class="navigation-bar">
         <!--1. Internal navigation-->
-     <!--Logo-->
-     <a href="index.html">
-      <img src="assets/scissor.png" id="logo"/>
-      </a>
+        <!--Logo-->
+        <a href="index.html">
+          <img src="assets/scissor.png" id="logo" />
+        </a>
         <!--2. External navigation-->
         <!--Navigation items-->
-      <nav>
-        <div class="central-nav">
-          <a href="" id="my-urls">My URLs</a>
-          <a href="">Features</a>
-          <a href="">Pricing</a>
-          <a href="">Analytics</a>
-          <a href="">FAQs</a>
-        </div>
+        <nav>
+          <div class="central-nav">
+            <a href="#section2" id="my-urls">My URLs</a>
+            <a href="#section3">Features</a>
+            <a href="#section4">Pricing</a>
+            <a href="#section5">Analytics</a>
+            <a href="#section6">FAQs</a>
+          </div>
 
-        <div class="right-nav">
-          <a href>Log in</a>
-          <button>Try for free</button>
+          <div class="right-nav">
+            <a href>Log in</a>
+            <button class="section1-btn">Try for free</button>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!--Sections-->
+    <!--Section1 : The Homepage-->
+    <section id="section1">
+      <h1>
+        Optimize Your Online Experience with Our Advanced URL Shortening
+        Solution
+      </h1>
+
+      <p>
+        Personalize your shortened URLs to align with your brand identity.
+        Utilize custom slugs, branded links, and domain customization options to
+        reinforce your brand presence and enhance user engagement.
+      </p>
+
+      <div class="sign-up-row">
+        <button class="section1-btn">Sign up</button>
+        <a href="">Learn more</a>
+      </div>
+
+      <div class="vector-card">
+        <img src="assets/vector-card.png" id="vector-card" />
+      </div>
+
+      <div class="table">
+        <img src="assets/table.png" />
+      </div>
+
+      <div class="table-stand">
+        <h2 class="s1-h2item">One Stop. <br />Four Possibilities.</h2>
+        <div class="item-group">
+          <h3 class="s1-h3item">3M</h3>
+          <p class="s1-item-p">Active users</p>
         </div>
-      </nav>
+        <div class="item-group">
+          <h3 class="s1-h3item">60M</h3>
+          <p>Links & QR codes created</p>
+        </div>
+        <div class="item-group">
+          <h3 class="s1-h3item">1B</h3>
+          <p>Clicked & Scanned connections</p>
+        </div>
+        <div class="item-group">
+          <h3 class="s1-h3item">300k</h3>
+          <p>App Integrations</p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--Section 2: Features-->
+    <section id="section2">
+     <div class="section2-header-group">
+        <div class="section2-h1-box">
+          <img src="assets/why-line.png" id="why-line" />
+          <h1 class="section2-h1-header"><strong>Why choose Scissors</strong></h1>
+          </div>
+          <p>
+            Scissors is the hub of everything that has to do with your link
+            management. We shorten your URLs, allow you creating custom ones for
+            your personal, business, event usage. Our swift QR code creation,
+            management and usage tracking with advance analytics for all of
+            these is second to none.
+          </p>
+      </div>
+
+      <div class="section2-gridgroup">
+        <h2>URL Shortening</h2>
+        <p>
+          Scissor allows you to shorten URLs of your business, events. Shorten
+          your URL at scale, URL redirects.
+        </p>
+      </div>
+
+      <div class="section2-gridgroup">
+        <h2>Custom URLs</h2>
+        <p>
+          With Scissor, you can create custom URLs, with the length you want! A
+          solution for socials and businesses.
+        </p>
+      </div>
+
+      <div class="section2-gridgroup">
+        <h2>QR Codes</h2>
+        <p>
+          Generate QR codes to your business, events. Bring your audience and
+          customers to your doorstep with this scan and go solution.
+        </p>
+      </div>
+
+      <div class="section2-gridgroup">
+        <h2>Data Analytics</h2>
+        <p>
+          Receive data on the usage of either your shortened URL, custom URLs or
+          generated QR codes. Embedded to monitor progress.
+        </p>
+      </div>
+    </section>
+
+
+    <!--Section 3: Pricing-->
+
+      <section id="section3" class="pricing-section">
+
+        <div class="s3-header-box">
+        <h1>A price perfect for your needs.</h1>
+        <p>
+          From catering for your personal, business, event, socials needs, you can
+          be rest assured we have you in mind in our pricing.
+        </p>
+      </div>
+  
+      <div class="pricing-container">
+        <!-- Basic Plan -->
+        <div class="pricing-card basic">
+          <h3>Basic</h3>
+          <h2>Free</h2>
+          <p>Free plan for all users</p>
+          <ul>
+            <li>✅ Unlimited URL Shortening</li>
+            <li>✅ Basic Link Analytics</li>
+            <li>✅ Customizable Short Links</li>
+            <li>✅ Standard Support</li>
+            <li>✅ Ad-supported</li>
+          </ul>
+        </div>
+    
+        <!-- Professional Plan -->
+        <div class="pricing-card professional">
+          <h3>Professional</h3>
+          <h2>$15/month</h2>
+          <p>Ideal for business creators</p>
+          <ul>
+            <li>✅ Enhanced Link Analytics</li>
+            <li>✅ Custom Branded Domains</li>
+            <li>✅ Advanced Link Customization</li>
+            <li>✅ Priority Support</li>
+            <li>✅ Ad-free Experience</li>
+          </ul>
+        </div>
+    
+        <!-- Teams Plan -->
+        <div class="pricing-card teams">
+          <h3>Teams</h3>
+          <h2>$25/month</h2>
+          <p>Share with up to 10 users</p>
+          <ul>
+            <li>✅ Team Collaboration</li>
+            <li>✅ User Roles and Permissions</li>
+            <li>✅ Enhanced Security</li>
+            <li>✅ API Access</li>
+            <li>✅ Dedicated Account Manager</li>
+          </ul>
+        </div>
+      </div>
+  
+  
+      <!-- Buttons -->
+    <div class="pricing-buttons">
+      <button class="btn-outline">Get Custom Pricing</button>
+      <button class="btn-primary">Select Pricing</button>
     </div>
-  </section>
-
-    <h1>
-      Optimize Your Online Experience with Our Advanced URL Shortening Solution
-    </h1>
-
-    <p>
-      Personalize your shortened URLs to align with your brand identity. Utilize
-      custom slugs, branded links, and domain customization options to reinforce
-      your brand presence and enhance user engagement.
-    </p>
-
-    <div class="sign-up-row">
-<button>Sign up</button>
-<a href="">Learn more</a>
-</div>
-
-<div class="vector-card">
-<img src="assets/vector-card.png" id="vector-card">
-</div>
-
-<div class="table">
-  <img src="assets/table.png">
-  </div>
-
-  <div class="table-stand">
-    <h2>One Stop.</h2>
-    <h2>Four Possibilities.</h2>
-    <div class="item-group">
-    <h3>3M</h3>
-    <p>Active users</p>
-  </div>
-  <div class="item-group">
-    <h3>60M</h3>
-    <p>Links & QR codes created</p>
-  </div>
-  <div class="item-group">
-    <h3>1B</h3>
-    <p>Clicked & Scanned connections</p>
-  </div>
-  <div class="item-group">
-    <h3>300k</h3>
-    <p>App Integrations</p>
-  </div>
-
-</div>
+    
+    </section>
 
 
+
+    <!--Section 4: Analytics-->
+    <section id="section5"></section>
+
+    <!--Section 5: FAQs-->
+    <section id="section6"></section>
+
+    <section class="footer">
+      <footer>
+        <div class="footer-banner">
+          <h1>Revolutionizing Link Optimization</h1>
+          <button>Get Started</button>
+        </div>
+
+        <div class="footer-column">
+          <p class="footer-header"><strong>Why Scissor?</strong></p>
+          <p>Scissor 101</p>
+          <p>Integrations & API</p>
+          <p>Pricing</p>
+
+          <p class="footer-row2"><strong>Resources</strong></p>
+          <p>Blog</p>
+          <p>Resource Library</p>
+          <p>Developers</p>
+          <p>App Connectors</p>
+          <p>Support</p>
+          <p>Trust Center</p>
+          <p>Browser Extension</p>
+          <p>Mobile App</p>
+        </div>
+
+        <div class="footer-column">
+          <p class="footer-header"><strong>Solutions</strong></p>
+          <p>Social Media</p>
+          <p>Digital Marketing</p>
+          <p>Customer Service</p>
+          <p>For Developers</p>
+        </div>
+
+        <div class="footer-column"></div>
+
+        <div class="footer-column"></div>
+
+        <div id="meta-links"></div>
+      </footer>
+    </section>
   </body>
 </html>
